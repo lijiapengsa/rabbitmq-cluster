@@ -1,5 +1,4 @@
-FROM rabbitmq:3.6-management
-MAINTAINER Stuart Fenton <stuart@grandmore.com>
+FROM rabbitmq:3.6.6-management
 
 COPY rabbitmq-cluster /usr/local/bin/
 COPY pre-entrypoint.sh /
